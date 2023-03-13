@@ -33,7 +33,7 @@ jobs:
         run: yarn config set cache-folder .yarn-cache
         continue-on-error: true
 
-      - uses: actions/cache@627f0f41f6904a5b1efbaed9f96d9eb58e92e920 # pin@v2
+      - uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # pin@v2
         with:
           path: |
             .yarn-cache
