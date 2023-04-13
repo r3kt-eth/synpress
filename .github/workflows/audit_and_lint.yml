@@ -78,7 +78,7 @@ jobs:
         if:
           always() && (github.ref == 'refs/heads/master' || github.ref ==
           'refs/heads/dev' || github.event_name == 'pull_request')
-        uses: github/codeql-action/upload-sarif@39d8d7e78f59cf6b40ac3b9fbebef0c753d7c9e5 # pin@codeql-bundle-20210517
+        uses: github/codeql-action/upload-sarif@7df0ce34898d659f95c0c4a09eaa8d4e32ee64db # pin@codeql-bundle-20210517
         with:
           sarif_file: lint-results.sarif
         continue-on-error: true
